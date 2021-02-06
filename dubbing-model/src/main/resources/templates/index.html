@@ -1,15 +1,22 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet"  th:src="@{../static/vue/vue.min.js}"/>
-    <link rel="stylesheet"  th:src="@{js/index.js}"/>
+<!--    <link rel="script"  th:src="@{../static/vue/vue.min.js}"/>-->
+<!--    <link rel="script"-->
+
+<!--    <link rel="script"  th:src="@{js/index.js}"/>-->
+<!--    <link data-main="/dubbing/main" th:src="/dubbing/require.js">-->
 </head>
+
 <body>
     hello world!!!
     <div id="test">
-        <h1>{{url}}</h1>
+        <h1>url:{{url}}</h1>
     </div>
+    <script data-main="/dubbing/main" src="/dubbing/require.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 </body>
+
 </html>

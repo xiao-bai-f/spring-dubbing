@@ -1,6 +1,7 @@
-var ve  = new Vue({
-    el: "#test",
-    data:{
-        url : "www.baidu.com"
-    }
-})
+define(['jquery'],
+    function($){
+        function init(){
+            alert("hello wrold"+$('#test'));
+        }
+        return init;
+    });
