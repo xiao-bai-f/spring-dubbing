@@ -13,6 +13,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dubbing-model" options="-parameters" />
       <module name="spring-dubbing" options="-parameters" />
     </option>
   </component>
